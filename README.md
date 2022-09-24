@@ -7,6 +7,6 @@ Steps to run:\
 `kubectl apply -f deployment.yml`\
 `kubectl apply -f service.yml`\
 In another terminal window: `minikube tunnel`\
-`kubectl get service`\
+`kubectl get service`
 
 Get the EXTERNAL-IP from `kubectl get service` and go to http://external_ip:5000/request_here to see GET results
