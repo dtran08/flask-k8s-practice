@@ -2,7 +2,7 @@ Practice project to brush up on Docker/K8s knowledge, as well as learn how to cr
 
 Credits to auth0 blog (https://auth0.com/blog/developing-restful-apis-with-python-and-flask/) for source code.
 
-Steps to run:
+Steps to run:\
 `docker build -t cashman .`\
 `kubectl apply -f deployment.yml`\
 `kubectl apply -f service.yml`\
